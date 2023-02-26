@@ -1,0 +1,71 @@
+*{
+    position: relative;
+    left: 50px;
+    top: 15px;
+    background-color: rgb(234, 247, 247);
+}
+h2{
+    text-align: center;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+#Information{
+    text-align: center;
+    padding-top: 80px;
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+#cards{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+   
+}
+.card{
+    text-align: center;
+    
+}
+#header{
+    text-align: center;
+    font-family: Arial, sans-serif;
+} 
+form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+form>div{
+    width: 400px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#name{
+    display: flex;
+   align-items: center;
+   height: 15px;
+  
+}
+#submit{
+    width: 100%;
+  padding: 12px 20px;
+
+    background-color: #2979FF;
+    color: white;
+}
+/* media Quriey */
+@media screen and (max-width: 600px) {
+    body {
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+}

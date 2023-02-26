@@ -1,0 +1,110 @@
+*{
+    background-color: #f4f5f5;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    color: #001F49;
+}
+h1{
+    text-align: center;
+    color: #001F49;
+}
+
+/* -----------------------------CSS for the header------------------------------ */
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#navbar>img{
+    width: 200px;
+}
+#search{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 60px;
+}
+#user-logo{
+   
+    height: 50px;
+    position: relative;
+    top: 90px;
+    left: -100px;
+}
+
+
+/* -------------------------------------------------CSS for the footer part----------------------------------------------------------- */
+.bold{
+    font-weight: bold;
+}
+
+#footer{
+    position: relative;
+    left: 200px;
+    margin: auto;
+    display: flex;
+    background-color: #FFFFFF;
+}
+li{
+    list-style: none;
+}
+
+
+/*   the copied part */
+
+#details{
+    position: relative;
+    bottom: 50px;
+}
+#header{
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    position: relative;
+    bottom: 100px;
+    /* color: #2979FF; */
+} 
+form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+input[type="text"], input[type="email"], input[type="password"],input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#name{
+    display: flex;
+   align-items: center;
+   height: 15px;
+    
+}
+#submit{ 
+    width: 100%;
+    padding: 12px 20px;
+
+    background-color: #2979FF;
+    color: white;
+}
+#reset{
+    width: 100%;
+  padding: 12px 20px;
+ margin-top: 30px;
+    background-color: #2979FF;
+    color: white;
+}
+/* media Quriey */
+@media screen and (max-width: 600px) {
+    body {
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Click & collect</title>
+    <link rel="shortcut icon" href="./images/supermart-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/products.css" />
+    <link rel="shortcut icon" href="../Frontend/images/supermart-favicon.png" type="image/x-icon">
+</head>
+
+<body>
+ 
+
+    
+    <!-- main content of the page -->
+    <div id="prod">
+        <div id="filters">
+            <span>
+                <h3>Filter By Category</h3>
+                <select name="" id="filter-by-category">
+                    <option value="">Select</option>
+                    <option value="shirts">shirts</option>
+                    <option value="jeans">jeans</option>
+                </select>
+            </span>
+
+            <span>
+                <h3>Sort By Price</h3>
+                <select name="" id="sort-by-price">
+                    <option value="">Select</option>
+                    <option value="htl">High to Low</option>
+                    <option value="lth">Low to High</option>
+                </select>
+            </span>
+
+            <span>
+                <h3>Sort By Ratings</h3>
+                <select name="" id="sort-by-ratings">
+                    <option value="">Select</option>
+                    <option value="5">5</option>
+                    <option value="4a">4 & above</option>
+                    <option value="3a">3 & above</option>
+                </select>
+            </span>
+        </div>
+        <div id="products"></div>
+    </div>
+</body>
+
+</html>
+<script type="module" src="./scripts/products.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
