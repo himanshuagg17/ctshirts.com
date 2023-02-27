@@ -33,7 +33,8 @@ form.addEventListener("submit",(e)=>{
             }
            
             if(email==="admin@gmail.com"&&password==="admin"){
-                window.location.href="users.html";
+                window.location.href="Admin-Page/users.html";
+                
             }else{
                 window.location.assign("index.html")
             }
