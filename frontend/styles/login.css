@@ -5,6 +5,8 @@
     background-color: rgb(234, 247, 247);
 }
 h2{
+    position: relative;
+    left: 100px;
     text-align: center;
 }
 body{
